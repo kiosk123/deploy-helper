@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
 
         if (args.length < 6) {
-            System.out.println("help :: java -jar deploy-helper.jar");
+            System.out.println("help :: java -jar deploy-helper.jar <host> <port> <user> <password> <localFilePath> <remoteFilePath>");
             return;
         }
 
